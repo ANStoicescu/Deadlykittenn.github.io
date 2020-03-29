@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  font-size: 105%;
+}
+body{
+    background-image: url("sayagata-400px.png");
+}
+header {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.middle {
+  text-indent: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55em
+}
+.title {
+    padding-top:20px;
+    color: #45A29F;
+  font-size: 200%;
+  font-weight: bold;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color:#363636;
+  font-family: Arial;
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 24px;
+  color: #f9f9f9;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 24px;
+  border: none;
+  outline: none;
+  color: #f9f9f9;
+  padding: 18px 20px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #B32920;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #484848;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content ul{
+    list-style-type: none;
+    padding-left:12px;
+}
+.dropdown-content a {
+  float: none;
+  font-size: 20px;
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #b82b21;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
