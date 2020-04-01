@@ -5,13 +5,14 @@
   font-size: 105%;
 }
 body{
-    background-image: url("sayagata-400px.png");
+    background-image: url("Background.png");
 }
 header {
   padding-bottom: 20px;
   text-align: center;
   font-size: 30px;
 }
+
 
 .middle {
   text-indent: 20px;
@@ -101,4 +102,30 @@ header {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+th,td{
+    border:1px solid black;
+    padding:5px;
+}
+td:empty{
+    padding:20px;
+}
+table{
+    border-collapse:collapse;
+    empty-cells:show;
+}
+
+@media screen and (max-width:951px){
+    th,td{
+        border:1px solid black;
+        padding:5px;
+    }
+    td:empty{
+        padding:20px;
+    }
+    table{
+        border-collapse:collapse;
+        empty-cells:show;
+    }
 }
