@@ -4,21 +4,36 @@
   font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   font-size: 105%;
 }
+
 body{
     background-image: url("Background.png");
 }
+
 header {
   padding-bottom: 20px;
   text-align: center;
   font-size: 30px;
 }
 
-
 .middle {
   text-indent: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 50em;
+}
+
+.middle>h2{
+    padding-top:20px;
+    color: #45A29F;
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.middle>h3{
+    padding-top:20px;
+    color: #45A29F;
+  font-size: 150%;
+  font-weight: bold;
 }
 
 @media screen and (max-width:951px){
@@ -31,13 +46,7 @@ header {
 }
 
 
-.title {
-    padding-top:20px;
-    color: #45A29F;
-  font-size: 200%;
-  font-weight: bold;
-}
-
+/*---------------navbar-------------*/
 .navbar {
   overflow: hidden;
   background-color:#363636;
@@ -103,7 +112,7 @@ header {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+/*---------------tabel-------------*/
 th,td{
     border:1px solid black;
     padding:5px;
@@ -116,7 +125,7 @@ table{
     empty-cells:show;
 }
 
-@media screen and (max-width:951px){
+@media screen and (max-width:426px){
     th,td{
         border:1px solid black;
         padding:5px;
