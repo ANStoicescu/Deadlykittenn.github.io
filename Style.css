@@ -12,12 +12,24 @@ header {
   text-align: center;
   font-size: 30px;
 }
+
 .middle {
   text-indent: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 55em
+  width: 50em;
 }
+
+@media screen and (max-width:951px){
+    .middle {
+      text-indent: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+    }
+}
+
+
 .title {
     padding-top:20px;
     color: #45A29F;
