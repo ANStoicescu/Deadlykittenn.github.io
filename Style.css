@@ -42,15 +42,11 @@ header {
     width: auto;
   }
 }
-.secundar {
-  text-indent: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50em;
-}
-.secundar article {
-  width: 50%;
-  float: left;
+@media screen and (min-width:1036px) {
+  .middle article {
+    width: 50%;
+    float: left;
+  }
 }
 article > h3 {
   padding-top: 20px;
