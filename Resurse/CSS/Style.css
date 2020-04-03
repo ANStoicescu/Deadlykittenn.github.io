@@ -8,8 +8,11 @@ h1 {
   color: #62aaa7;
   font-size: 200%;
 }
+h1:hover{
+    text-shadow: 2px 2px #FF0000;
+}
 body {
-  background-image: url("Background.png");
+  background-image: url("../Imagini/Background.png");
 }
 header {
   padding-bottom: 20px;
