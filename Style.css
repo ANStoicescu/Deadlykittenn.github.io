@@ -23,7 +23,6 @@ header {
   width: 50em;
 }
 .middle > h2 {
-  padding-top: 20px;
   color: #45A29F;
   font-size: 250%;
   font-weight: bold;
@@ -49,7 +48,6 @@ header {
   }
 }
 article > h3 {
-  padding-top: 20px;
   color: #45A29F;
   font-size: 150%;
   font-weight: bold;
@@ -119,9 +117,7 @@ footer {}
     display: block;
   }
   thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
+    display:none;
   }
   tr {
     border: 1px solid #ccc;
