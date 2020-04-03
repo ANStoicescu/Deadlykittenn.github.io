@@ -36,6 +36,14 @@ header {
   font-size: 150%;
   font-weight: bold;
 }
+@media screen and (max-width:560px)
+{
+	iframe{
+        height:auto;
+        width:auto;
+	}
+	
+}
 @media screen and (max-width:951px) {
   .middle {
     text-indent: 20px;
