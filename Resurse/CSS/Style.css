@@ -39,7 +39,7 @@ header {
 .middle > h4 {
     padding-top:1rem;
   color: #45A29F;
-    font-size: 120%;
+    font-size: 140%;
   font-weight: bold;
 }
 @media screen and (max-width:560px)
