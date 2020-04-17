@@ -4,12 +4,12 @@
   font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   font-size: 105%;
 }
+p{
+    text-indent: 2em;
+}
 h1 {
   color: #62aaa7;
   font-size: 200%;
-}
-h1:hover{
-    text-shadow: 2px 2px #FF0000;
 }
 body {
   background-image: url("../Imagini/Background.png");
@@ -34,6 +34,12 @@ header {
   padding-top: 20px;
   color: #45A29F;
   font-size: 150%;
+  font-weight: bold;
+}
+.middle > h4 {
+    padding-top:1rem;
+  color: #45A29F;
+    font-size: 120%;
   font-weight: bold;
 }
 @media screen and (max-width:560px)
