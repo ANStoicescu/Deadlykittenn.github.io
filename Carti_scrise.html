@@ -1,17 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ro">
 <head>
 <meta charset="utf-8"/>
 <meta name="author" content="Stoicescu Adrian">
-<meta name="description" content="Carti Scrise de Angela Hondru">
-<meta name="keywords" content="Carti, Japoneza, Curs, Japonia, Angela, Hondru">
+<meta name="description" content="Site Angela Hondru">
+<meta name="keywords" content="Angela, Hondru, Japonia, Centrul de Studii Romano-Japoneze,Centru, Studii, Romano-Japoneze">
 <link rel="stylesheet" type="text/css" href="Resurse/CSS/Style.css"/>
 <link rel="stylesheet" type="text/css" href="Resurse/CSS/Style_animated_galery.css"/>
+<script src="Resurse/JavaScript/Word_count.js"></script>
+<link rel="stylesheet" type="text/css" href="Resurse/CSS/Style_menu.css"/>
 <link rel="icon" href="Resurse/Imagini/japan.png" type="image/gif"/>
-<title> Angela Hondru Carti scrise </title>
+<script src="Resurse/JavaScript/New_menu.js"></script>
+<title> Angela Hondru </title>
 </head>
 
-<body>
+<body id="box">
+<ul class="menu">
+  <li class="menu-item" id="red">Red text</li>
+  <li class="menu-item" id="black">Black text</li>
+  <li class="menu-item" id="green">Green text</li>
+  <li class="separator"></li>
+  <li class="menu-item" id="small">Small Font</li>
+  <li class="menu-item" id="medium">Medium Font</li>
+  <li class="menu-item" id="large">Large Font</li>
+  <li class="separator"></li>
+  <li class="menu-item" id="inapoi_la_inceput">Inapoi la inceput</li>
+</ul>
 <header class="jumbotron text-center">
   <h1>Angela Hondru</h1>
   <figure id="animated-galery">
@@ -30,25 +44,27 @@
     <button class="dropbtn">Principal <i class="fa fa-caret-down"></i> </button>
     <div class="dropdown-content"> <a href="index.html#Descriere">Descriere</a> <a href="index.html#Stagii_de_cercetare">Stagii de cercetare</a> <a href="index.html#Premii_si_distinctii">Premii şi distincţii</a> <a href="index.html#Traduceri_din_limba_japoneza">Traduceri din limba japoneză</a> <a href="index.html#Traduceri_din_limba_engleza">Traduceri din limba engleză</a> <a href="index.html#Scenarii">Scenarii</a> <a href="index.html#Expozitii_de_fotografie_insotite_de_prelegeri">Expoziţii de fotografie însoţite de prelegeri</a> <a href="index.html#Repere">Repere</a> </div>
   </div>
-  <a href="Carti_scrise.html">Cărţi scrise</a> <a href="Interviu.html">Interviu</a> </nav>
+<a href="Carti_scrise.html">Cărţi scrise</a> <a href="Contact.html">Contact</a> <a href="Quiz.html">Quiz</a></nav>
 <div class="middle">
   <h2>Cărţi de autor:</h2>
-  <ul>
-    <li><em>Curs de limba japoneză</em>, Shunposha, Tokyo, 1983 (Ediţie revizuită, Sirius, Bucureşti, 1991)</li>
-    <li><em>111 Dialoguri situaţionale </em>– Ghid de conversaţie japonez-român, Sakura, Bucureşti, 1991</li>
-    <li><em>Curs de limba japoneză</em>, vol. II, Sakura, Bucureşti, 1992</li>
-    <li><em>Mituri şi legende japoneze</em>, Victor, Bucureşti, 1999</li>
-    <li><em>Ghid de literatură japoneză</em>, vol. I, Victor, Bucureşti, 1999</li>
-    <li><em>Festivaluri japoneze – Īn spiritul tradiţiei</em>, TC Sen Sibiu, 2001</li>
-    <li><em>Ghid de conversaţie român-japonez </em>(co-autor Raluca Nicolae), Polirom, Iaşi, 2002</li>
-    <li><em>Curs practic de limba japoneză</em>, Polirom, Iaşi, 2002 (Ediţie revizuită Yume, Constanţa, 2010)</li>
-    <li><em>Ghid de literatură japoneză, </em>vol. II, Victor, Bucureşti, 2004</li>
-    <li><em>Ghid de conversaţie japonez-român</em> (co-autor Fumiaki Tajiri), Polirom, Iaşi, 2005</li>
-    <li><em>Limbă şi civilizaţie japoneză – </em><strong>CD-ROM</strong>, Gabriela Medrea, Bucureşti, 2005</li>
-    <li><em>Scrisoare către Japonia – </em>Enciclopedică, Bucuresti, 2011</li>
-    <li><em>Kagura – de la mit la realitate prin dans</em>, Monitorul Oficial, 2014</li>
-    <li><em>Ema &#8211; Rugi și recunostință,</em> UMC București, 2019</li>
-  </ul>
+  <section>
+    <ul>
+      <li><em>Curs de limba japoneză</em>, Shunposha, Tokyo, 1983 (Ediţie revizuită, Sirius, Bucureşti, 1991)</li>
+      <li><em>111 Dialoguri situaţionale </em>– Ghid de conversaţie japonez-român, Sakura, Bucureşti, 1991</li>
+      <li><em>Curs de limba japoneză</em>, vol. II, Sakura, Bucureşti, 1992</li>
+      <li><em>Mituri şi legende japoneze</em>, Victor, Bucureşti, 1999</li>
+      <li><em>Ghid de literatură japoneză</em>, vol. I, Victor, Bucureşti, 1999</li>
+      <li><em>Festivaluri japoneze – Īn spiritul tradiţiei</em>, TC Sen Sibiu, 2001</li>
+      <li><em>Ghid de conversaţie român-japonez </em>(co-autor Raluca Nicolae), Polirom, Iaşi, 2002</li>
+      <li><em>Curs practic de limba japoneză</em>, Polirom, Iaşi, 2002 (Ediţie revizuită Yume, Constanţa, 2010)</li>
+      <li><em>Ghid de literatură japoneză, </em>vol. II, Victor, Bucureşti, 2004</li>
+      <li><em>Ghid de conversaţie japonez-român</em> (co-autor Fumiaki Tajiri), Polirom, Iaşi, 2005</li>
+      <li><em>Limbă şi civilizaţie japoneză – </em><strong>CD-ROM</strong>, Gabriela Medrea, Bucureşti, 2005</li>
+      <li><em>Scrisoare către Japonia – </em>Enciclopedică, Bucuresti, 2011</li>
+      <li><em>Kagura – de la mit la realitate prin dans</em>, Monitorul Oficial, 2014</li>
+      <li><em>Ema &#8211; Rugi și recunostință,</em> UMC București, 2019</li>
+    </ul>
+  </section>
   <article>
     <h3>Colaborator (intrările pentru Japonia: geografie, istorie, cultură):</h3>
     <ul>
@@ -70,6 +86,8 @@
       <li>„Hayachine Kagura – an Exquisite Bouquet of Dances” în <em>Studia Univesitatis</em>, Babeş Bolyai, Nr. 1/ 2013, Cluj, p. 117-126 (în limba engleză)</li>
     </ul>
   </article>
+  <footer> Word Count Is: <span></span> <br>
+    <a href="#">Inapoi la inceput</a> </footer>
 </div>
 </body>
 </html>
